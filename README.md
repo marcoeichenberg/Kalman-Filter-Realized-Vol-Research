@@ -85,13 +85,13 @@ We evaluate models using:
 - Stable behavior
 
 Example (from backtest):
-- BTC: Sharpe 0.56 → 0.79, MaxDD reduced significantly :contentReference[oaicite:0]{index=0}  
+- BTC: Sharpe 0.56 → 0.79, MaxDD reduced significantly 
 
 ---
 
 ### Kalman Filter
 
-- Slightly better **forecast accuracy (QLIKE)** :contentReference[oaicite:1]{index=1}  
+- Slightly better **forecast accuracy (QLIKE)** 
 - More reactive to market changes
 - BUT:
 
@@ -133,7 +133,7 @@ Final conclusion:
 
 ## Takeaways
 
-- Volatility targeting improves **risk profile**, not returns :contentReference[oaicite:2]{index=2}  
+- Volatility targeting improves **risk profile**, not returns 
 - Model complexity increases risk of **overfitting**
 - Evaluation metrics must match the **use case**
 - Financial models should be judged by **implementation cost**, not just accuracy
