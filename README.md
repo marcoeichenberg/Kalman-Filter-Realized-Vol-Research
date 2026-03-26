@@ -37,12 +37,12 @@ $$
 
 We model log-volatility using a state-space framework:
 
-\[
+$$
 h_t = F h_{t-1} + \eta_t
-\]
-\[
+$$
+$$
 y_t = \mu + H h_t + \epsilon_t
-\]
+$$
 
 Key idea:
 - separate **short-term** and **long-term** volatility
@@ -54,9 +54,9 @@ Key idea:
 
 Position sizing:
 
-\[
+$$
 contracts_t = \frac{V_{target}}{price_{t-1} \cdot \sigma_{t-1}}
-\]
+$$
 
 Key design choices:
 - **Lagged inputs** → avoid lookahead bias
@@ -143,7 +143,6 @@ Final conclusion:
 ## Repository Structure
 
 - `notebook.ipynb` → full implementation and results
-- (optional) PDF → extended analysis
 
 ---
 
