@@ -24,9 +24,9 @@ This is known as **volatility targeting**.
 
 We start with a simple and robust model:
 
-\[
+$$
 \sigma_t = \sqrt{\lambda \sigma^2_{t-1} + (1 - \lambda) r_t^2}
-\]
+$$
 
 - Parameter chosen via **half-life = 36**
 - Reason: prioritize **stability over precision**
